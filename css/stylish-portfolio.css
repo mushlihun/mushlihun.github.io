@@ -29,8 +29,34 @@ body {
     font-weight: 700;
     color: #fff;
 }
-h3 {
+.text-vertical-center h1 a {
     color: #fff;
+}
+.arrow {
+    background-image: url("https://static-cdn.wdh.gg/assets/arrow_down.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 60px;
+    width: 80px;
+    margin: 0px 0 0 -40px;
+    line-height: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    text-align: center;
+    z-index: 100;
+    animation: move_down 3s ease-in-out infinite;
+}
+@keyframes move_down {
+    0% {
+        transform: translate(0, -20px);
+    }
+    50% {
+        transform: translate(0, 0px);
+    }
+    100% {
+        transform: translate(0, -20px);
+    }
 }
 
 /* Custom Button Styles */
