@@ -27,10 +27,47 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+    <script src="libs/rain.js" defer></script>
 </head>
 
 <body>
+    <!-- Parallex 3D -->
+    <section class="layers">
+        <div class="layers__container">
+          <div
+            class="layers__item layer-1"
+            style="background-image: url(img/bg.jpg)"
+          ></div>
+          <div class="layers__item layer-3">
+            <div class="text-vertical-center">
+                <h1><a class="typewrite" data-period="2000" data-type='["Hi, my name is Mushlihun", "I am a Analyst Programmer."]'><span class="wrap"></span></a></h1>
+    
+                        <!-- Typewriter Script -->
+                        <script src="https://static-cdn.wdh.gg/typewriter.js"></script>
+                <br>
+                <a href="#about">
+                    <button class="button-start">please get to know me more</button>
+                </a>
+                <a class="arrow" href="#about"></a>
+            </div>
+            <div class="hero-content">
+            </div>
+          </div>
+          <div class="layers__item layer-4">
+            <canvas class="rain"></canvas>
+          </div>
+          <div
+            class="layers__item layer-5"
+            style="background-image: url(img/layer-5.png)"
+          ></div>
+          <div
+            class="layers__item layer-6"
+            style="background-image: url(img/layer-6.png)"
+          ></div>
+        </div>
+      </section>
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -57,19 +94,6 @@
             </li>
         </ul>
     </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1><a class="typewrite" data-period="2000" data-type='["Hi, my name is Mushlihun", "I am a Analyst Programmer."]'><span class="wrap"></span></a></h1>
-
-                    <!-- Typewriter Script -->
-                    <script src="https://static-cdn.wdh.gg/typewriter.js"></script>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-            <a class="arrow" href="#about"></a>
-        </div>
-    </header>
 
     <!-- About -->
     <section id="about" class="about">
@@ -258,6 +282,12 @@
                         </li>
                         <li>
                             <a href="https://www.instagram.com/mushlihun"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.threads.net/mushlihun"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mushlihun"><i class="fa fa-cog fa-linkedin fa-3x fa-fw"></i></i></i></a>
                         </li>
                     </ul>
                     <hr class="small">
