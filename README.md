@@ -16,7 +16,7 @@
 
 ### 🙋‍♂️ About Me
 <!--  <img align="right" alt="GIF" height="100px" width="100px" src="code.gif" /> -->
-- 🔭 I’m currently as **Analyst Programmer**
+- 🔭 I’m currently as **Senior Analyst Programmer**
 - 🌱 I’m currently learning **Web and Mobile**
 - 👨‍💻 All of my projects are available at **[here](https://github.com/mushlihun?tab=repositories)**
 - 📫 Reach me at **mushlihun@live.com**
